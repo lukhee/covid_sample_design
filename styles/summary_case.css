@@ -1,0 +1,7 @@
+body {
+  background-image: linear-gradient(to bottom right, #1976d2, #90caf9);
+}
+
+.main-section {
+  min-height: 68vh;
+}

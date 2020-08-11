@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(to bottom right, #1976d2, #90caf9);
+}
+
+.main-section {
+  min-height: 68vh;
+}
+.arrow_div{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 20;
+    margin-bottom: 20px
+    /* margin-top: -50px; */
+}
+
+.fa-angle-double-down{
+    font-size: 40px
+}
+
+.font-size {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.danger_opac1{
+    background: #dc3545c2
+}
+
+.danger_opac2{
+    background: #edadb436
+}
+
+.warning_opac1{
+    background: #ffc107b5
+}
+
+.warning_opac2{
+    background: #fdd14e40
+}
+.success_opac1{
+    background: #28a745a8
+}
+
+.success_opac0{
+    background: #6fc38257
+}

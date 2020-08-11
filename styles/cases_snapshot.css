@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(to bottom right, #1976d2, #90caf9);
+}
+
+.main-section {
+  min-height: 68vh;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+  grid-gap: 2rem;
+}
+
+.light-Blue-bg {
+  background: #155fa0;
+}
+
+.orrange2 {
+  background: #e91e63;
+}
+
+.orrange1{
+    background: #ef6c00
+}
+
+.purp2 {
+  background: #ff1374;
+}
+
+.green1 {
+  background: #00bfa5;
+}
+
+.grey2 {
+  background: #ffc400;
+}
+
+.brown2 {
+  background: #00c853;
+}
+
+.font-size {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
