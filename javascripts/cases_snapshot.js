@@ -7,7 +7,7 @@ const covid_snapShot = [
     },
   },
   {
-    title: "confirm cases",
+    title: "confirmed cases",
     case_types: {
       new: 16,
       total: 1502,
@@ -35,7 +35,7 @@ const covid_snapShot = [
     },
   },
   {
-    title: "conatcts traced success rate",
+    title: "contacts traced success rate",
     case_types: {
         value: 99
     },
