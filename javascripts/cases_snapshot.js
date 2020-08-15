@@ -56,10 +56,10 @@ const snapShot_func = (ele, index) => {
   // create a regular element
   const recordNode = document.createElement("div");
   recordNode.className =
-    "light-Blue-bg p-2 w-100 rounded d-flex flex-column shadow justify-content-between text-white";
+    "bg-white p-2 w-100 rounded d-flex flex-column shadow justify-content-between text-secondary";
   //   create div for title
   const titleNode = document.createElement("h5");
-  titleNode.className = `py-4 font-weight-bolder text-uppercase text-white`;
+  titleNode.className = `py-4 font-weight-bolder text-uppercase`;
   titleNode.innerText = ele.title;
 
   //   create div for value
@@ -70,7 +70,7 @@ const snapShot_func = (ele, index) => {
     valueNode.className = "d-flex flex-column justify-content-around h-75";
     const titleNode = document.createElement("span");
     titleNode.className =
-      "p-2 px-4 bg-success py-5 d-block mb-2 rounded shadow font-weight-bold ${color_code[index]";
+      "p-2 px-4 bg-danger py-5 d-block mb-2 rounded shadow font-weight-bold text-white";
     titleNode.innerHTML = `${ele.case_types.value} %`;
     valueNode.appendChild(titleNode)
   } else {
@@ -78,7 +78,7 @@ const snapShot_func = (ele, index) => {
     case_obj_key.forEach((key) => {
       const titleSpan = document.createElement("span");
       const valueSpan = document.createElement("span");
-      valueSpan.className = "bg-danger border border-white p-1 py-2 mt-2 mx-2 d-block rounded pt-2 font-weight-bold";
+      valueSpan.className = "bg-danger text-light p-1 py-2 mt-2 mx-2 d-block rounded pt-2 font-weight-bold";
       titleSpan.className = `p-2 d-block mb-2 rounded font-size text-uppercase ${color_code[index]}`;
       titleSpan.innerText = key;
       valueSpan.innerHTML = ele.case_types[key];

@@ -31,8 +31,8 @@ class Header extends HTMLElement {
 class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <footer class="mt-5 mb-2 py-2 text-dark">
-    <h5>
+    <footer class="mt-5 mb-2 py-2 text-secondary">
+    <h5 class="text-primary">
       DELTA STATE-HOTLINES: 08031230480, 08031230481, 08031230528, 08031230529
     </h5>
     <h6>
